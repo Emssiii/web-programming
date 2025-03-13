@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    gap: 20px; /* Space between images */
+    height: 100vh; /* Centering vertically in viewport */
+}
+
+figure {
+    text-align: center; /* Center text below the image */
+    margin: 0;
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Keep aspect ratio */
+    border: 3px solid #333;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto; /* Centers images inside figure */
+}
+
+img:hover {
+    filter: grayscale(80%) contrast(120%);
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}

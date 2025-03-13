@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(90deg, #ff0000, #ff7300, #ffcc00, #00ffcc, #007bff, #6a0dad);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    transition: 0.3s;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    text-shadow: 0 0 10px #ffffff;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px red, 0 0 20px white;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ff0000;
+}
+
+h2 {
+    font-size: 35px;
+    color: #ffcc00;
+}
+
+/* Key Information */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Cast & Characters */
+p {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Glowing Buttons */
+.button {
+    display: inline-block;
+    background: #ff0000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px red, 0 0 20px white;
+    transition: 0.3s;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px red, 0 0 30px white;
+    transform: scale(1.1);
+}
